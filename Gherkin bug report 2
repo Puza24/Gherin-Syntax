@@ -9,5 +9,3 @@ Given The user is on the homepage
 When The user scrolls down on the bottom of homepage
 Then The homepage should display “Next” button to click for the next page
 But The homepage displayed clickable “Previous” button also
-
-
