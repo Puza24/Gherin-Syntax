@@ -1,0 +1,11 @@
+Feature: Demonblaze homepage “Previous” button bug
+The user should not be able to click on the button “Previous”
+when user is on the homepage and that is the first page.
+
+
+
+Scenario: Go on to the bottom of homepage
+Given The user is on the homepage
+When The user scrolls down on the bottom of homepage
+Then The homepage should display “Next” button to click for the next page
+But The homepage displayed clickable “Previous” button also
