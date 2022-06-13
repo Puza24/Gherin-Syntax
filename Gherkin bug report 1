@@ -1,20 +1,23 @@
-Feature: Demoblaze cart bug
-The user should not be able to successfully purchase 
-when cart is empty.
+#
+#Bug-001
+#OS: Linux 22.04
+#Laptop: ThinkPad T590
+#Date: 13.06.2022
+#Reporter: Pero
+#
 
+Feature: Demoblaze cart bug
+  The user should not be able to successfully purchase 
+  when cart is empty.
 
 Scenario: Navigate to “Cart”
-Given The user is on the home page
-When The user clicks on option “Cart”
-Then The “Cart” page should display
-
-
-
-Scenario: Go to payment option
-Given The shopping cart is empty
-When The user click place order
-And The user put information for order 
-And The user click on the place order button
-Then The error message should display
-But The “Thank you for ordering” message displayed
+  Given The user is on the home page
+  When The user clicks on option “Cart”
+  Then The “Cart” page should display
+  Given The shopping cart is empty
+  When The user click place order
+  And The user put information for order 
+  And The user click on the place order button
+  Then The error message should display
+  But The “Thank you for ordering” message displayed
 
