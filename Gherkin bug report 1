@@ -1,9 +1,9 @@
 #
-#Bug-001
-#OS: Linux 22.04
-#Laptop: ThinkPad T590
-#Date: 13.06.2022
-#Reporter: Pero
+# Bug-001
+# OS: Linux 22.04
+# Laptop: ThinkPad T590
+# Date: 13.06.2022
+# Reporter: Pero
 #
 
 Feature: Demoblaze cart bug
